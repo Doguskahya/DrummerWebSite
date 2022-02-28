@@ -1,0 +1,39 @@
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+
+
+
+
+
+
